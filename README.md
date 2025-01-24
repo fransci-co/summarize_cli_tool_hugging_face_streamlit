@@ -9,6 +9,6 @@ Building the devcontainer will automatically install all dependencies and start 
 Default port 8051 - http://localhost:8501/
 
 ## App Demo:
-![image](https://github.com/user-attachments/assets/fcc69625-b00c-4663-b6ac-846baa7320d6)
-![image](https://github.com/user-attachments/assets/e03a9d9a-088f-415b-94cb-19698623cc6d)
+![image](https://github.com/user-attachments/assets/07d83837-1f2c-4ca5-a474-0c4a14aae4e1)
+![image](https://github.com/user-attachments/assets/0e700a7e-1996-4d5c-a329-345ad76bcaae)
 
