@@ -17,7 +17,8 @@ choice = st.radio("Choose an input method", ("Text", "URL", "File"))
 # Conditionally show the corresponding input field based on the choice
 if choice == "Text":
     input_text = st.text_input('Type a text')
-
+    st.write(input_text)
+    
 elif choice == "URL":
     input_url = st.text_input('Type a url')
 
@@ -32,7 +33,7 @@ elif choice == "File":
 if st.button('Summarize'):
     # Simulate CLI arguments
     if choice == "Text":
-            st.write(summarizer(plaintext = input))  # This will execute as if you ran it via CLI
+            st.write(summarizer(plaintext = input_text))  # This will execute as if you ran it via CLI
     elif choice == "URL":
             st.write(summarizer(url=input_url))  # This will execute as if you ran it via CLI
     elif choice == "File":
